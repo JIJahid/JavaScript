@@ -1,7 +1,13 @@
-function myFunction(firstname) {
-  console.log("hello " + firstname);
+function myFunction() {
+  console.log("hello Javascript");
 }
 
-myFunction("Jahid");
-myFunction("Minhaj");
-myFunction("Jahid");
+myFunction();
+
+
+// ()----> Parameter
+function name(name, age ){
+    console.log("My name is " + name +"." + " I am " + age + " years old");
+}
+name("Jahid", 21)
+// ()----> Argument
