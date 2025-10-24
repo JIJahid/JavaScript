@@ -24,5 +24,19 @@ function firstName(name, age, dateOfBirth = 2000 ){
 
 //Automatic (Self-invoked) invocation Function( ja nije nijei kaj kore)
 (function (message){
-    console.log("I am a Self-invocation", message);
+    // console.log("I am a Self-invocation", message);
 })("hello");
+
+
+// Maths function 
+let maths = function(x,y){
+    return (x * y)
+}
+console.log(maths(2,5));
+
+
+// Maths function 
+function math(c,d){
+    return c + d
+}
+console.log(math(33,55))
